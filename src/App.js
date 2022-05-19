@@ -5,19 +5,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="http://localhost:3000/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Future Home of Dartstats
-        </a>
+        <div className="App-header-logo">
+          <img src="./logo_large.png" />
+        </div>
       </header>
+      <main>
+    
+      </main>
     </div>
   );
 }
